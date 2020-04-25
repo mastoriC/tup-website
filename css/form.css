@@ -1,0 +1,88 @@
+body {
+  background-color: #373C64;
+  color: #111111;
+  font-size: 16px;
+}
+.form-box {
+  border: 0;
+  background-color: #EEEEEE;
+  padding: 18px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.form-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: #373C64;
+  padding-bottom: 24px;
+}
+.item-header {
+  font-weight: bold;
+}
+.input-field {
+  border: 1px solid;
+  border-color: #E6E6E6;
+  border-radius: 256px;
+  padding: 6px 12px;
+  font-size: 16px;
+}
+.panel-header {
+  font-weight: bold;
+  font-size: 18px;
+  color: #373C64;
+  padding-bottom: 8px;
+  border-bottom: 1px solid;
+  border-color: #D980DA;
+}
+.text-btn {
+  border: 0;
+  background-color: inherit;
+  font-size: 12px;
+  color: #666666;
+  text-decoration: none;
+  transition: .5s;
+}
+.text-btn:hover,.text-btn:active {
+  color: #373C64;
+  transition: .5s;
+  text-decoration: none;
+}
+.form-btn {
+  border: 0;
+  border-radius: 256px;
+  background-color: #CDD6F5;
+  padding: 8px 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #262A44;
+  font-weight: bold;
+  transition: .3s;
+}
+.form-btn:hover,.form-btn:active {
+  background-color: #EEC7EE;
+  color: #373C64;
+  transition: .5s;
+  text-decoration: none;
+}
+.admin-btn {
+  border: 0;
+  border-radius: 256px;
+  background-color: #CDD6F5;
+  padding: 8px 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #262A44;
+  font-weight: bold;
+  transition: .3s;
+}
+.admin-btn:hover,.admin-btn:active {
+  background-color: #F85B5B;
+  color: #262A44;
+  transition: .5s;
+  text-decoration: none;
+}
+.warning-msg {
+  color: #EF5151;
+  font-weight: bold;
+}
